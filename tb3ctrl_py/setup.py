@@ -15,11 +15,13 @@ setup(
     zip_safe=True,
     maintainer='arrusr',
     maintainer_email='rivascf@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Nodo demo para dibujar un circulo',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'go_cle_py = tb3ctrl_py.go_in_circle:main',
+            'tb3_robot_state = tb3ctrl_py.tb3_robot_state:main'
         ],
     },
 )

@@ -3,11 +3,14 @@
 <package format="3">
   <name>tb3ctrl_py</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Nodo demo para dibujar un circulo</description>
   <maintainer email="rivascf@gmail.com">arrusr</maintainer>
-  <license>TODO: License declaration</license>
+  <license>MIT</license>
 
   <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>tb3ctrl_interfaces</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
